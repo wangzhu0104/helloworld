@@ -1,7 +1,11 @@
 #include <stdio.h>
 main()
 {
+  int a;
   printf("hello world!\n");
+  printf("输入你的数字:\n");
+  scanf("%d",&a);
+  printf("你输入的数字是%d。\n",a);
   getchar();
   return 0;
 }  
